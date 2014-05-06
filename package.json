@@ -1,6 +1,6 @@
 {
 	"name": "scrapjs",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A super easy and extensible Nodejs library for scraping the web",
 	"main": "./lib/scrap.js",
 	"directories": {
