@@ -6,14 +6,14 @@ A super **easy**, **small** and **extensible** NodeJS library for scraping the w
 
 * Easy installation and use.
 * It use **promises** inside.
-* You can **save your manifest** in a JSON file or in a MongoDB collection, for example, for retrieve it later.
+* You can **save your manifest** in a JSON file or in a MongoDB collection, for example, to retrieve it later.
 * It can be **extended** by customized modules or filters for repetitive tasks.
-* It use a fantastic **Cheerio library** to query and traversing in the DOM.
+* It uses a fantastic **Cheerio library** to query and traversing in the DOM.
 * And more.
 
 ## Getting started
 
-A fast example that as extract the "On this day" section in Wikipedia.org:
+A quick example that as extract the "On this day" section in Wikipedia.org:
 ```js
 var scrap = require('scrapjs').Scrap;
 
@@ -102,7 +102,7 @@ var manifest = {
     }
 }
 ```
-In this model you can observe `$query` and `$each`, they are a modules. Modules in Scrapjs allow iterates and taversing over DOM tree. The modules don't appear in the final JSON object, but his properties contents would can appear. It depends on the module.
+In this model you can observe `$query` and `$each`, they are modules. Modules in Scrapjs allow iterates and taversing over DOM tree. The modules don't appear in the final JSON object, but his properties contents would can appear. It depends on the module.
 See *Modules* section to know more about modules that come with Scrapjs.
 
 In the above example `$query` creates a context and `$each` iterates over each *li* elements. Inside $each we have two properties: `year` and `note`.
@@ -150,7 +150,7 @@ The final output:
 
 ### attr <attr name>
 
-Get a attribute of current element. You can get HTML5 data elements: *data-custom="my value"*
+Get an attribute of current element. You can get HTML5 data elements: *data-custom="my value"*
 
 ### get <index>
 
@@ -222,7 +222,7 @@ This module allows you to work with the current context. Avaible actions:
 
 ### Creating a module
 
-Create a module can be easy or a complex task. It depends on you idea, but the basic idea is this:
+Create a module can be easy or a complex task. It depends on your idea, but the basic idea is this:
 
 ```js
 // Soon
