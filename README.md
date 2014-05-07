@@ -13,7 +13,7 @@ A super **easy**, **small** and **extensible** NodeJS library for scraping the w
 
 ## Getting started
 
-A quick example that as extract the "On this day" section in Wikipedia.org:
+A quick example that as extract the "On this day" section in [wikipedia.org](http://www.wikipedia.org):
 ```js
 var scrap = require('scrapjs').Scrap;
 
