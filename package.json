@@ -1,28 +1,28 @@
 {
-	"name": "scrapjs",
-	"version": "0.1.1",
-	"description": "A super easy and extensible Nodejs library for scraping the web",
-	"main": "./lib/scrap.js",
-	"directories": {
-		"lib": "./lib"
-	},
-	"engines": {
-		"node": "0.10.x"
-	},
-	"dependencies": {
-		"request": "~2.33.0",
-		"cheerio": "~0.13.1",
-        "lodash": "~2.4.1",
-		"q": "~1.0.0"
-	},
-    "devDependencies": {
-        "mocha": "~1.18.2"
-    },
-    "scripts": {
-        "test": "node_modules/.bin/mocha -w"
-    },
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/terox/scrapjs.git"
-	}
+  "name": "scrapjs",
+  "version": "0.1.2",
+  "description": "A super easy and extensible Nodejs library for scraping the web",
+  "main": "./lib/scrap.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "request": "~2.33.0",
+    "cheerio": "~0.13.1",
+    "lodash": "~2.4.1",
+    "q": "~1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/terox/scrapjs.git"
+  }
 }
