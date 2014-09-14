@@ -33,6 +33,11 @@ var manifest1 = {
         browsers: {
             $query: '#browsers li',
             $each: {
+                __options: {
+                    chain: false,
+                    delay: 0,
+                    foo: 'bar'
+                },
                 name     : 'this | text',
                 company  : 'this | attr data-company | uppercase',
                 company  : 'this | attr data-company | uppercase',
